@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#headerContentArea {
+    height: 100%;
+    width: 960px;
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+html, body {
+    height: 100%;
+}
+
+body{
+background-image: url("../images/blue-snow.png");
+}
+
+.menu-container {
+    color: #777777;
+    background-color: white;
+    display: flex;
+}
+
+.header{
+    display: block;
+}
+
+
+.page-header {
+    background: white;
+    background-color: white;
+    width: 100%;
+}
+
+.vl {
+    height: 20px;
+    border-left: 2px solid #777777;
+    margin-left: 18px;
+}
+.pageContent{
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    width: 960px;
+}
+
+hr{
+margin: 20px auto;
+width: 100%;
+}
+img {
+    float: left;
+    max-width: 185px;
+    width: 50%;
+    margin: 20px;
+    margin-left: 0;
+}
+p {
+    margin-top: 1em;
+    margin-bottom: 40px;
+    margin: 40px;
+    margin-block-end: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainBox {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: grey;
+    margin-top: 40px;
+    width: 960px;
+    margin-bottom: 40px;
+}
+.menu {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a {
+    float: right;
+}
+
+a {
+    margin-left: 20px;
+}
+
+.Anastasia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    color: white;
+    padding: 30px;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+}
+input { 
+    width:95%; 
+    height:30px; 
+} 
+button { 
+    background-color:green; 
+    color:white; 
+    border:none; 
+    border-radius:5px; 
+    font-size:14px; 
+    padding:5px; 
+        
+} 
+
+h1 { 
+    color: #4aaaa5;
+    float: left;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+
+.pageTitle {
+    text-align: start;
+    margin: 20px;
+    font-size: large;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    columns: #777777;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    width: 10%;
+    text-align: center;
+    color: white;
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+    border-radius:5px;  
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .content {
+    padding: 20px;
+    position: relative;
+    width: 960px;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid-item {
+    min-height: 100px;
+    background:white;
+    flex: calc(100% / 3);
+    text-align: center;
+    line-height: 100px;
+    padding: 100px 0px;
+    border-width: 35px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-left: 0;
+    border-bottom: 0;
+  }
+
+.item1 {
+    background: url(../images/1.jpeg)
+  }
+.item2 {
+    background: url(../images/2.jpeg);
+}
+.item4 {
+    background: url(../images/3.jpeg)
+  }
+.item5 {
+    background: url(../images/4.jpeg);
+}
+.item7 {
+    background: url(../images/5.jpeg)
+  }
+
+  .itemsmall {
+      background-color: #4aaaa5;
+      margin-bottom: -82px;
+      margin-top: 30px;
+      height: 52px;
+  }
+  .textbox{
+      text-align: center;
+      margin-bottom: -82px;
+      margin-top: 7px;
+      height: 52px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .footer {
+      flex-shrink: 0;
+      background-color: ivory;
+      height: 20px;
+      text-align: center;
+      padding: 30px;
+      border-top: solid;
+      border-color: aquamarine;
+  }
